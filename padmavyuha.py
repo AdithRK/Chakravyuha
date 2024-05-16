@@ -50,9 +50,9 @@ def chakravyuha(power,a,b,enemies) :
 # Test Cases
 
 test = [                            
-    (25, 2, 2, [5, 7, 8, 6, 5, 7, 6, 4, 3, 5, 4]),
+    (25, 2, 2, [5, 7, 8, 6, 1, 7, 6, 4, 3, 5, 4]),
     (15, 2, 2, [5, 7, 8, 6, 5, 7, 6, 4, 3, 5, 4])
 ]
 
 for power, a, b, enemies in test:
-    print(chakravyuha(power, a, b, enemies))
+    print(chakravyuha(power, a, b, enemies),"\n")
